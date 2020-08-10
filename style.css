@@ -1,0 +1,38 @@
+
+.drop{
+padding:0;
+z-index:10;
+}
+.drop li
+{
+left:1px;
+padding:0;
+float:left;
+list-style: none;
+}
+.drop li a
+{
+display:block;
+background:#191919;
+border:2px solid #797986;
+width:100px;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+}
+.drop li a:hover{
+background:#151B54;
+}
+.drop div
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background:#050505;
+}
+.adminbutton{
+visibility:hidden;}
+ .adminbutton1{
+margin:0px;
+}

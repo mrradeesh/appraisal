@@ -1,0 +1,107 @@
+<!DOCTYPE html >
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+ 
+<script type="text/javascript">
+ 
+ 
+function mopen()
+{ 
+	document.getElementById("m1").style.visibility="visible";
+}
+function showl()
+{ 
+	document.getElementById("m1").style.visibility="hidden";
+}
+function mopena()
+{ 
+	document.getElementById("m2").style.visibility="visible";
+}
+function showa()
+{ 
+	document.getElementById("m2").style.visibility="hidden";
+}
+function mopenb()
+{ 
+	document.getElementById("m3").style.visibility="visible";
+}
+function showb()
+{ 
+	document.getElementById("m3").style.visibility="hidden";
+}
+function mopenc()
+{ 
+	document.getElementById("m4").style.visibility="visible";
+}
+function showc()
+{ 
+	document.getElementById("m4").style.visibility="hidden";
+}
+</script>
+ 
+</HEAD>
+
+<body >
+<div>
+<ul class="drop">
+  	
+
+	<li><a href="#"  
+         	onmouseover="mopen()"
+		onmouseout="showl()">Employee</a>  
+	<div id="m1"          
+		onmouseover="mopen()"
+		onmouseout="showl()"    >     
+		   <a href="empinsert.php">Add</a>
+	     	   <a href="empdelete.php">Remove</a>     
+		   <a href="empupdate.php">Update</a>
+		   <a href="empsearch.php">Search</a>   
+	</div>   
+     	</li>
+	
+	 <li><a href="#"  
+         	onmouseover="mopena()"
+		onmouseout="showa()">Student</a>  
+	 <div id="m2"          
+		   onmouseover="mopena()"
+		onmouseout="showa()">     
+		   <a href="sinsert.php">Add</a>
+	     	   <a href="sdelete.php">Remove</a>     
+		   <a href="supdate.php">Update</a>
+		   <a href="ssearch.php">Search</a>    
+	</div>   
+     	</li>        	
+    	
+	
+	 <li><a href="#"  
+         	onmouseover="mopenb()"
+		onmouseout="showb()">Parameter</a>  
+	 <div id="m3"          
+		   onmouseover="mopenb()"
+		onmouseout="showb()">     
+		   <a href="qinsert.php">Add</a>
+	     	   <a href="qremove.php">Remove</a>
+		 <a href="qupdate.php">Update</a>
+		   <a href="show.php">Show</a>     
+		     
+	</div>   
+     	</li>
+	      <li><a href="#"
+			onmouseover="mopenc()"
+		onmouseout="showc()">Password</a>
+		 <div id="m4"          
+		   onmouseover="mopenc()"
+		onmouseout="showc()">     
+		   <a href="chpasswd.php">Administator</a>
+	     	   <a href="schpasswd.php">Student</a>
+		         
+		     
+	</div>
+	</li>
+	      <li><a href="logout.php">Logout</a></li>
+</ul>
+</div>
+</body>
+</html>
+
